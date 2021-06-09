@@ -1,0 +1,7 @@
+Cách e làm cũng đúng, nhưng khá sơ khai
+E có thể phát triển thêm bằng cách sử dụng Javascript Ajax và Jquery để làm cho web game của mình chuyên nghiệp hơn.
+
+- Mỗi lần F5 trang thì dùng javascript call 1 đường link tới file GetGame.php => file này chỉ dùng để sinh game và lưu câu hỏi và trả lời vào session => trả về cho client và dùng javascript để show câu hỏi và bộ đáp án ra
+
+- Dùng javascript (jquery) bắt sự kiện mỗi lần click vào đáp án, call tới 1 file CheckResult.php qua Ajax => file này có chức năng nhận các biến mà client truyền lên qua Ajax, lấy kết quả từ session ra đối chiếu, nếu đúng thì trả về biến true, nếu sai thì false.
+Trong response của Ajax đó mình sẽ kiểm tra biến kia server trả về là true hay false để gọi tiếp cái GetGame.php nếu true hoặc dùng javascript show cái thông báo kết thúc game nếu false
