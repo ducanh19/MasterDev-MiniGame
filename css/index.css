@@ -1,0 +1,70 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Fallback color: black w/ opacity */
+  min-width: 622px;
+}
+  
+/* Modal Content/Box */
+.modal-content {
+  background-color: #40E0D0;
+  margin: 100px auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 2px solid #222;
+  border-radius: 5%;
+  position: relative;
+  width: 35%; /* Could be more or less, depending on screen size */
+  height: 50%;
+}
+
+.title {
+  margin: 20px auto;
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+  color: 	#C71585;
+}
+
+.input-name {
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  width: 100%;
+  margin: 15px auto;
+  color: #e6a977;
+  border-radius: 50px;
+  text-align: center;
+  outline: none;
+  padding: 50px auto;
+  border: 1px cornflowerblue dotted;
+}
+
+.button-submit {
+  align-content: center;
+  width: 100%;
+}
+
+.bt {
+  background-color: #0fa8f1;
+  color: white;
+  border-radius: 30px;
+  margin: 10px auto;
+  width: 100px;
+  height: 40px;
+  border: none;
+  display: block;
+}
+
+.control-rank {
+  position: absolute;
+  right: 0px;
+  background-color: transparent;
+  border: none;
+}
