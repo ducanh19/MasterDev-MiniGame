@@ -26,6 +26,7 @@ function fillTextQues(JSONstring) {
         document.getElementsByClassName("score")[0].innerHTML = "Your score: " + quiz.score;
     } else {
         window.location.href = "http://localhost/quiz/controller/control.php";
+        return;
     }
 
     document.getElementById('question').innerHTML = quiz.question;

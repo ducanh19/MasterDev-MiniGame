@@ -49,7 +49,18 @@
         <div id="rank" class="modal">
             <!-- Table-ranking content -->
             <div class="modal-table-content">
-
+                <table class="ranking">
+                    <thead>
+                        <th>Name</th>
+                        <th>Score</th>
+                        <th>Trying times</th>
+                        <th>Last playing</th>
+                    </thead>
+                    <span id="rankElement"></span>
+                    <?php
+                        include_once "controller/getPlayer.php";
+                    ?>
+                </table>
             </div>
         </div>
     </div>
