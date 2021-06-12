@@ -1,2 +1,0 @@
-# MasterDev-MiniGame
-Funny game
