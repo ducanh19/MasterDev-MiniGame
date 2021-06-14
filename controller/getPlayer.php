@@ -1,5 +1,5 @@
 <?php
-include 'db/player.php';
+include $_SERVER["DOCUMENT_ROOT"] . '/quiz/db/player.php';
 $list = getList();
 
 $GLOBALS['conn']->close();

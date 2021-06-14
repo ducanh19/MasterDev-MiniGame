@@ -1,5 +1,5 @@
 <?php
-require_once('connectDB.php');
+require_once($_SERVER["DOCUMENT_ROOT"] . '/quiz/db/connectDB.php');
 
 /**
  * Get highest score.

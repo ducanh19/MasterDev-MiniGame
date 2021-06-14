@@ -13,7 +13,7 @@ function startGame() {
 // User click on control button ('Start Game' or 'Reset Game')
 if (isset($_POST['control'])) {
     if ($_POST['control'] == 'Play Game') { //When user click 'Play Game'
-        include_once '../db/getQuizInfo.php';
+        include_once $_SERVER["DOCUMENT_ROOT"] . '/quiz/db/getQuizInfo.php';
         startGame();
         header("Location: http://localhost/quiz/takeQuiz.php");
 
@@ -23,7 +23,7 @@ if (isset($_POST['control'])) {
 } else { //Time out or Click wrong answer.
 
     $_SESSION['result'] = "Game over!<br>Your score: " . $_SESSION['score'];
-    include_once '../db/addUser.php';
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/quiz/db/addUser.php';
     header("Location: http://localhost/quiz");
 }
 

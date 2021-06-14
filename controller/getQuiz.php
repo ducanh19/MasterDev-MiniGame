@@ -10,7 +10,7 @@
         $_SESSION['score'] += 1;
     }
 
-    include '../model/quiz.php';
+    include $_SERVER["DOCUMENT_ROOT"] . '/quiz/model/quiz.php';
     $q = new Quiz();
     // Gen new question.
     $q->genQuiz();

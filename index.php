@@ -58,7 +58,7 @@
                     </thead>
                     <span id="rankElement"></span>
                     <?php
-                        include_once "controller/getPlayer.php";
+                        include_once $_SERVER["DOCUMENT_ROOT"] . "/quiz/controller/getPlayer.php";
                     ?>
                 </table>
             </div>

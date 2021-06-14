@@ -1,5 +1,5 @@
 <?php
-require_once('connectDB.php');
+require_once($_SERVER["DOCUMENT_ROOT"] . '/quiz/db/connectDB.php');
 
 $sql = "SELECT * FROM player WHERE `Name` = '" . $_SESSION['name'] . "'";
 $result = $GLOBALS['conn']->query($sql);
