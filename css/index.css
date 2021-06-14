@@ -76,7 +76,7 @@
   padding: 20px;
   border: 2px solid rgb(240, 212, 90);
   overflow: auto; /* Enable scroll if needed */
-  width: 75%; /* Could be more or less, depending on screen size */
+  width: 60%; /* Could be more or less, depending on screen size */
   height: 60%;
   font-family: cursive;
   font-size: 30px;
@@ -114,7 +114,7 @@
 
 .ranking th{
   padding: 0 15px;
-  text-align: left;
+  text-align: center;
   font-weight: bolder;
   color: #567782;
   text-transform: uppercase;
